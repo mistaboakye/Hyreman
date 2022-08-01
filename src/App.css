@@ -1,10 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .App {
-  text-align: center;
+  text-align: start;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.loginBox {
+  position: absolute;
+  width: 570px;
+  height: 572px;
+  left: 958px;
+  top: 206px;
+  background: #cce2ee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.loginBoxHeading {
+  position: absolute;
+  width: 368px;
+  height: 36px;
+  left: 101px;
+  top: 64px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1768ac;
+}
+.loginBoxSubheading {
+  position: absolute;
+  width: 368px;
+  height: 21px;
+  left: 101px;
+  top: 105px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #353535;
+}
+.loginBoxMain {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 50px;
+
+  position: absolute;
+  width: 326px;
+  height: 62px;
+  left: 121px;
+  top: 156px;
+}
+
+.loginBoxEmail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+
+  position: absolute;
+  width: 326px;
+  height: 62px;
+  left: 121px;
+  top: 233px;
+}
+.loginBoxPassword {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+
+  position: absolute;
+  width: 326px;
+  height: 62px;
+  left: 121px;
+  top: 310px;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 5px;
+
+  width: 153px;
+  height: 62px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.loginInputContainer {
+  /* Frame 143 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+
+  width: 153px;
+  height: 36px;
+
+  background: #ffffff;
+  border: 0.2px solid #000000;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.loginInputContainer1 {
+  /* Frame 143 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+
+  width: 356px;
+  height: 36px;
+
+  background: #ffffff;
+  border: 0.2px solid #000000;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,6 +167,42 @@
   }
 }
 
+.loginButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 10px;
+
+  position: absolute;
+  width: 213px;
+  height: 40px;
+  left: 178px;
+  top: 442px;
+
+  background: #1768ac;
+  border-radius: 10px;
+}
+.loginButtonText {
+  width: 53px;
+  height: 24px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +225,172 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navBar {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 70vw;
+  height: 60px;
+  left: 318px;
+  top: 24px;
+
+  background: #ffffff;
+  border: 1px solid rgba(104, 107, 111, 0.1);
+  border-radius: 10px;
+}
+/* width: 1370px; */
+
+.menuBar {
+  position: absolute;
+  width: 266px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+
+  background: #06264e;
+}
+.hyremanLogo {
+  position: absolute;
+  width: 182.79px;
+  height: 45.14px;
+  left: 35px;
+  top: 24px;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 241px;
+  height: 232px;
+  left: 12px;
+  top: 120px;
+}
+
+.menuDecoration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 20px;
+
+  width: 241px;
+  height: 40px;
+
+  background: #ffffff;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.menuDecoration1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  gap: 20px;
+
+  width: 241px;
+  height: 40px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.textIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menuText {
+  width: 177px;
+  height: 21px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.menuText1 {
+  width: 177px;
+  height: 21px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.candidateContainer {
+  box-sizing: border-box;
+
+  /* position: absolute; */
+  width: 425px;
+  height: 310px;
+  /* left: 318px;
+  top: 104px; */
+
+  background: #ffffff;
+  border: 1px solid rgba(104, 107, 111, 0.2);
+  border-radius: 10px;
+}
+
+.logoDashboard {
 }
